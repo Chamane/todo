@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "task": "get dressed",
+      "complete": false
+    },
+    {
+      "id": 2,
+      "task": "buy some foods",
+      "complete": false
+    },
+    {
+      "id": 3,
+      "task": "let a notice for the maid",
+      "complete": false
+    },
+    {
+      "id": 4,
+      "task": "go for a run",
+      "complete": false
+    },
+    {
+      "id": 5,
+      "task": "call the taxi",
+      "complete": true
+    }
+  ]
+}

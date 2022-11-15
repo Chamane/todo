@@ -1,10 +1,10 @@
 import { TodoItem } from "./todoItem";
-import { TodoCollection } from "./todoCollection";
+import { JsonTodoCollection } from "./jsonTodoCollection";
 import * as inquirer from "inquirer";
 
 let todos: TodoItem[] = [new TodoItem(1, 'get dressed'), new TodoItem(2, 'buy some foods'), new TodoItem(3, 'let a notice for the maid')]
 
-let collection: TodoCollection = new TodoCollection('Madsen', todos);
+let collection: JsonTodoCollection = new JsonTodoCollection('Madsen', todos);
 
 let newId: number = collection.addTodo('call the taxi');
 // let todoItem: TodoItem = collection.getTodoById(newId);
